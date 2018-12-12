@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Products from "./products/products";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      
+          <header>
+            <h1>React Stripe <br/> Elements </h1>
+            <p>Powered By React And Stripe Elements</p>
+          </header>  
+          <main>
+            <Products />
+          </main>
+          <footer>
+            <p>React Stripe Elements by &copy; aldocaava</p>
+          </footer>
+
       </div>
     );
   }
